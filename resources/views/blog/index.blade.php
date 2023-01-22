@@ -1,12 +1,6 @@
 <x-app>
-   <div class="mx-auto max-w-2xl my-20">
-       <div class="grid grid-cols-3 gap-12">
-           <div class="col-span-2">
-               <livewire:blog.index />
-           </div>
-           <div>
-               <livewire:blog.tag-list />
-           </div>
-       </div>
+    @section('title') {{ __('Blog') }} @endsection
+   <div class="mx-auto max-w-2xl my-20 px-8">
+       <livewire:blog.index />
    </div>
 </x-app>

@@ -1,4 +1,5 @@
 <x-app>
+    @section('title') {{ $post->title }} @endsection
     <div class="mx-auto max-w-2xl my-20">
         <h1 class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">{{ $post->title }}</h1>
         <div class="mt-4">
