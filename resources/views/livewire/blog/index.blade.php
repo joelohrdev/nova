@@ -4,7 +4,7 @@
             <h2 class="text-base font-semibold tracking-tight text-zinc-800">
                 <div class="absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl"></div>
                 <a href="{{ route('blog.show', $post) }}">
-                    <span class="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
+                    <span class="absolute -inset-y-6 -inset-x-4 z-20 sm:-inset-x-6 sm:rounded-2xl">.</span>
                     <span class="relative z-10">{{ $post->title }}</span>
                 </a>
             </h2>
